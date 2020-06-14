@@ -6,12 +6,12 @@ Tenha certeza que já possui instalado uma versão do JDK em sua máquina. A ver
 É importante que após a instalação da JDK você faça a configuração da variável de ambiente JAVA_HOME apontada para JDK. Veja baixo:
 
 ### COMANDOS com usuário root #:
-1. Abra o arquivo que está localizado no diretório **/etc/environment** e adicione a seguinte linha e salve: JAVA_HOME="/usr/lib/jvm/jdk-13.0.2"
-2. Use o comando **source /etc/environment** e sem seguida use o comando **echo $JAVA_HOME**. Tudo concluído, finalizamos esta etapa.
--------------------------------------
-gedit /etc/environment
-JAVA_HOME="/usr/lib/jvm/jdk-13.0.2"
-source /etc/environment
-echo $JAVA_HOME
+1. Abra o arquivo que está localizado no diretório **_gedit/etc/environment_** e adicione a seguinte linha e salve: _JAVA_HOME="/usr/lib/jvm/jdk-13.0.2"
 
-------------------------------------
+2. Use o comando **_source /etc/environment_** e sem seguida use o comando **_echo $JAVA_HOME_**. Tudo concluído, finalizamos esta etapa.
+
+
+
+Continua...
+
+
