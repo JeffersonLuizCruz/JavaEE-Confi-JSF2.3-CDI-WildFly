@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR"
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://xmlns.jcp.org/jsf/core"
+    xmlns:h="http://xmlns.jcp.org/jsf/html"
+>
+
+    <h:head>
+        <title>Olá, Mundo</title>
+    </h:head>
+   <h:body>
+    <!--Criação da Interface-->
+    
+        <h1>Olá, Mundo</h1>
+        
+       <h:form>
+            <h:outputLabel for="input" value="Entrada" />
+            <h:inputText id="input" value="#{bean.entrada}" />
+            <h:commandButton value="Enviar" action="#{bean.enviar}">
+            <f:ajax execute="@form" render=":saida" />
+            </h:commandButton>
+        </h:form>
+        <h:outputText id="saida" value="#{bean.saida}" />
+   
+    </h:body>
+</html>
