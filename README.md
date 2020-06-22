@@ -24,8 +24,10 @@ Para seguir esse tutorial é importante que baixe o Maven com extensão .tar.gz 
 
 **Adicionar duas linhas no arquivo e salvar _/etc/profile_**
 : gedit /etc/profile
-_Adicionar ná ultima linha do arquivo /etc/profile:_
+
 ____________________________
+_Adicionar ná ultima linha do arquivo /etc/profile:_
+
 export M3_HOME=/opt/maven
 
 export PATH=$M3_HOME/bin:$PATH
