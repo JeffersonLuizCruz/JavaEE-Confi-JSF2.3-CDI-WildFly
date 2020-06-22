@@ -16,13 +16,13 @@ Tenha certeza que já possui instalado uma versão do JDK em sua máquina. A ver
 Para baixar o Maven vá no site: https://maven.apache.org/download.cgi 
 Para seguir esse tutorial é importante que baixe o Maven com extensão .tar.gz e descompactar no diretório de arquivo _/opt/_ O Maven baixado dentro do diretório Downloads o seguinte comando fará o descopactamento para _/opt/_
 
-**Descompactar o aquivo para _/opt/**_
+**Descompactar o aquivo para _/opt/_**
 : tar -zxvf apache-maven-3.6.3-bin.tar.gz /opt/
 
 **Renomear arquivo _apache-maven-3.6.3_ para _maven_**
 : mv apache-maven-3.6.3 maven
 
-**Adicionar duas linhas no arquivo e salvar _/etc/profile**_
+**Adicionar duas linhas no arquivo e salvar _/etc/profile_**
 : gedit /etc/profile
 _Adicionar ná ultima linha do arquivo /etc/profile:_
 ____________________________
@@ -32,7 +32,7 @@ export PATH=$M3_HOME/bin:$PATH
 ______________________________
 **Encerre a sessão do seu Linux ou reinicie**
 Comando: mvn -version
-_Esse comando fará o teste se o Maven foi instalado ou não. Caso seja exibido a versão Maven tudo foi instalado corretamente.
+_Esse comando fará o teste se o Maven foi instalado ou não. Caso seja exibido a versão Maven tudo foi instalado corretamente._
 
 
 
