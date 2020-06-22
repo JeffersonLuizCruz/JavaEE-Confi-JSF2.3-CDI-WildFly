@@ -33,7 +33,8 @@ export M3_HOME=/opt/maven
 export PATH=$M3_HOME/bin:$PATH
 ______________________________
 **Encerre a sessão do seu Linux ou reinicie**
-Comando: mvn -version
+: mvn -version
+
 _Esse comando fará o teste se o Maven foi instalado ou não. Caso seja exibido a versão Maven tudo foi instalado corretamente._
 
 
