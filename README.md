@@ -12,7 +12,7 @@ Tenha certeza que já possui instalado uma versão do JDK em sua máquina. A ver
 
 
 
-##2. Instalação do Maven
+## 2. Instalação do Maven
 Para baixar o Maven vá no site: https://maven.apache.org/download.cgi 
 Para seguir esse tutorial é importante que baixe o Maven com extensão .tar.gz e descompactar no diretório de arquivo _/opt/_ O Maven baixado dentro do diretório Downloads o seguinte comando fará o descopactamento para _/opt/_
 
