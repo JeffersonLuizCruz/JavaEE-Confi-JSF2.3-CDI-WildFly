@@ -5,7 +5,7 @@ Neste tutorial, você aprenderá como configurar um ambiente de desenvolvimento 
 Tenha certeza que já possui instalado uma versão do JDK em sua máquina. A versão atual do java SE é 14. Nesse tutorial vamos fazer a instalação da versão 13. A configuração mínina é Java JDK 8 ou 1.8. Para fazer o download da JDK segue o link: https://docs.oracle.com/en/java/javase/index.html
 É importante que após a instalação da JDK você faça a configuração da variável de ambiente JAVA_HOME apontada para JDK. Veja baixo:
 
-### COMANDOS com usuário root #:
+### Adicionando variável de ambiente JAVA_HOME#:
 1. Abra o arquivo que está localizado no diretório **_gedit /etc/environment_** e adicione a seguinte linha e salve: **_JAVA_HOME="/usr/lib/jvm/jdk-13.0.2"_**
 
 2. Use o comando **_source /etc/environment_** em seguida use o comando **_echo $JAVA_HOME_** Tudo concluído, finalizamos esta etapa.
@@ -22,7 +22,7 @@ Para seguir esse tutorial é importante que baixe o Maven com extensão .tar.gz 
 **Renomear arquivo _apache-maven-3.6.3_ para _maven_**
 : mv apache-maven-3.6.3 maven
 
-**Adicionar duas linhas no arquivo e salvar _/etc/profile_**
+**Será necessário adiciobar duas linhas no arquivo _/etc/profile_**
 : gedit /etc/profile
 
 ____________________________
